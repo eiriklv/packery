@@ -152,15 +152,14 @@ return Packer;
 }
 
 // -------------------------- transport -------------------------- //
-
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( [ './rect' ], packerDefinition );
-} else if ( typeof exports === 'object' ) {
+if ( typeof exports === 'object' ) {
   // CommonJS
   module.exports = packerDefinition(
     require('./rect')
   );
+} else if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( [ './rect' ], packerDefinition );
 } else {
   // browser global
   var Packery = window.Packery = window.Packery || {};
