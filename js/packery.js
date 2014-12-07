@@ -448,7 +448,7 @@ return Packery;
 if ( typeof exports === 'object' ) {
   // CommonJS
   module.exports = packeryDefinition(
-    require('desandro-classie'),
+    require('classie'),
     require('get-size'),
     require('outlayer'),
     require('./rect'),
