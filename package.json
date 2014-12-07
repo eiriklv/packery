@@ -4,8 +4,8 @@
   "description": "bin-packing layout library",
   "main": "js/packery.js",
   "dependencies": {
-    "desandro-classie": "eiriklv/classie",
-    "desandro-get-style-property": "eiriklv/get-style-property",
+    "classie": "eiriklv/classie",
+    "get-style-property": "eiriklv/get-style-property",
     "get-size": "eiriklv/get-size",
     "outlayer": "eiriklv/outlayer"
   },
