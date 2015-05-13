@@ -5,7 +5,7 @@
   "main": "js/packery.js",
   "dependencies": {
     "classie": "eiriklv/classie",
-    "get-style-property": "eiriklv/get-style-property",
+    "desandro-get-style-property": "eiriklv/get-style-property",
     "get-size": "eiriklv/get-size",
     "outlayer": "eiriklv/outlayer"
   },
